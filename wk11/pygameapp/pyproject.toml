@@ -1,0 +1,16 @@
+[project]
+name = "pygameapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pygame>=2.6.1",
+]
+[tool.uv.extra-build-dependencies]
+pygame = ["setuptools"]
+
+[tool.uv.workspace]
+members = [
+    "SaraAdventure",
+]
